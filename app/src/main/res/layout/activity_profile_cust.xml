@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Masuk.ProfileCust">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_32">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="125dp"
+            android:layout_height="120dp"
+            android:src="@color/colorAccent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/padding_32" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/title_size_32"
+            android:text="@string/cust_name"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/title_size_20"
+            android:text="@string/lokasi_item_subcate_cust"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+
+</LinearLayout>

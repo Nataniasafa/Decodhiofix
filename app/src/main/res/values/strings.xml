@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DecocioApp</string>
+    <string name="phone_number_email">Phone number, username or email</string>
+    <string name="password">Password</string>
+    <string name="Log_in">Log in</string>
+    <string name="continue_with_google">Continue With Google</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="phone_number_username">Phone number or username</string>
+    <string name="cat_menu_name">Category</string>
+    <string name="detail_cat_menu">Detail</string>
+    <string name="lihat">lihat</string>
+    <string name="subcate_name">SubCate</string>
+    <string name="detail_subcate_cust">Detail</string>
+    <string name="item_name_detail_subcate_cust">Tenda1</string>
+    <string name="item_detail_subcate_cust">detail</string>
+    <string name="lokasi_item_subcate_cust">Bogor</string>
+    <string name="desc_item">Desc</string>
+    <string name="cust_name">Username</string>
+    <string name="to_continue">TO CONTINUE</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="Username">Username</string>
+</resources>

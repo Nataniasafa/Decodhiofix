@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Masuk.DetailItem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_8"
+                android:layout_marginRight="@dimen/padding_8"
+                android:layout_marginLeft="@dimen/padding_8"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@color/colorPrimary"/>
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_16"
+            android:layout_marginRight="@dimen/padding_16"
+            android:layout_marginTop="@dimen/padding_16"
+            android:layout_marginBottom="@dimen/padding_8"
+            android:text="@string/item_name_detail_subcate_cust"
+            android:textSize="@dimen/title_size_32"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_16"
+            android:layout_marginRight="@dimen/padding_16"
+            android:layout_marginBottom="@dimen/padding_16"
+            android:text="@string/lokasi_item_subcate_cust"
+            android:textStyle="italic"
+            android:textSize="@dimen/title_size_12"
+            android:textColor="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_16"
+            android:layout_marginLeft="@dimen/padding_16"
+            android:layout_marginRight="@dimen/padding_16"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/desc_item"
+            android:textColor="@android:color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/padding_16"
+            android:layout_marginLeft="@dimen/padding_16">
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/padding_16"
+                android:layout_marginLeft="@dimen/padding_16"
+                android:src="@drawable/ic_email_darked_35dp" />
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/padding_16"
+                android:src="@drawable/ic_favorite_darked_35dp" />
+
+            <ImageButton
+                android:layout_width="26dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/padding_16"
+                android:src="@drawable/ic_bookmark_darked_35dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
